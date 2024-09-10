@@ -7,6 +7,9 @@
 	environment.systemPackages = with pkgs; [
 		# Desktop apps
 		gparted
+
+		# CLI tools
+		bash
 	];
 
 	fonts.packages = with pkgs; [

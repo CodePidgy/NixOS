@@ -1,6 +1,11 @@
 { pkgs, ... }: {
     # Packages that don't require root
 	home.packages = with pkgs; [
+        # Desktop apps
+        gitkraken
+        firefox
+        vscode
+
 		# CLI utils
 		btop
 		eza
