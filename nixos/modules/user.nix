@@ -6,6 +6,4 @@
 			extraGroups = [ "networkmanager" "wheel" ];
 		};
 	};
-
-	services.getty.autologinUser = "aidan";
 }

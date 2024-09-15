@@ -10,6 +10,10 @@
 
 		# CLI tools
 		bash
+
+		# GNOME
+		gnome.adwaita-icon-theme
+		gnomeExtensions.appindicator
 	];
 
 	fonts.packages = with pkgs; [
