@@ -19,12 +19,5 @@
 		excludePackages = with pkgs; [
 			xterm
 		];
-
-		# libinput = {
-		# 	enable = true;
-
-		# 	mouse.accelProfile = "flat";
-		# 	touchpad.accelProfile = "falt";
-		# };
 	};
 }
