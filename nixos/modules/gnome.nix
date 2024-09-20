@@ -1,34 +1,33 @@
 { pkgs, ... }: {
     environment.gnome.excludePackages = with pkgs.gnome; [
-        baobab  # Disk usage analyzer
-        cheese  # Camera
-        #eog  # Image viewer
-        epiphany  # Web browser
-        #evince  # Document viewer
-        #file-roller  # Archive manager
-        geary  # Email client
-        #gedit  # Text editor
-        seahorse  # Password manager
-        simple-scan  # Document viewer
-        #totem  # Video player
-        yelp  # Help viewer
+        baobab         # Disk Usage Analyzer
+        epiphany       # Web Browser
+        #evince        # Document Viewer
+        #file-roller   # Archive Manager
+        geary          # Email Client
+        seahorse       # Password Manager
+        simple-scan    # Document Viewer
+        totem          # Video Player
+        yelp           # Help Viewer
+        #pkgs.loupe     # Image Viewer
+        pkgs.snapshot  # Camera
 
-        gnome-calculator
+        #gnome-calculator
         gnome-calendar
         gnome-characters
-        gnome-clocks
+        #gnome-clocks
         gnome-contacts
-        gnome-disk-utility
+        #gnome-disk-utility
         gnome-font-viewer
         gnome-logs
         gnome-maps
         gnome-music
-        #gnome-photos
-        gnome-screenshot
-        gnome-system-monitor
+        #gnome-screenshot
+        #gnome-system-monitor
         gnome-weather
         pkgs.gnome-connections
-        pkgs.gnome-tour
         #pkgs.gnome-terminal
+        #pkgs.gnome-text-editor
+        pkgs.gnome-tour
     ];
 }

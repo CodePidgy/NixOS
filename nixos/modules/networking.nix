@@ -1,4 +1,4 @@
 {
-	networking.hostName = "nixos";
+	networking.hostName = "Aidan-NixOS";
 	networking.networkmanager.enable = true;
 }

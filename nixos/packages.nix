@@ -5,15 +5,15 @@
 
 	# Packages that require root
 	environment.systemPackages = with pkgs; [
+		# GNOME
+		#gnome.adwaita-icon-theme
+		#gnomeExtensions.astra-monitor
+
 		# Desktop apps
 		gparted
 
 		# CLI tools
 		bash
-
-		# GNOME
-		gnome.adwaita-icon-theme
-		gnomeExtensions.appindicator
 	];
 
 	fonts.packages = with pkgs; [

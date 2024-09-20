@@ -1,7 +1,9 @@
 {
 	imports = [
 		./bash.nix
+		./dconf.nix
 		./git.nix
-		./gnome.nix
+		./gtk.nix
+		#./gnome.nix
 	];
 }
