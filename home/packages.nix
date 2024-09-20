@@ -9,11 +9,8 @@
 		# GNOME extensions
 		gnomeExtensions.astra-monitor
 		gnomeExtensions.dash-to-panel
-		#gnomeExtensions.forge
-		#gnomeExtensions.hide-activities-button
 		gnomeExtensions.just-perfection
 		gnomeExtensions.space-bar
-		#gnomeExtensions.vitals
 
         # Desktop apps
         gitkraken

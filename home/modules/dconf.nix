@@ -79,8 +79,6 @@
                 enabled-extensions = [
                     "monitor@astraext.github.io"                            # Astra Monitor
                     "dash-to-panel@jderose9.github.com"                     # Dash to Panel
-                    #"forge@jmmaranan.com"                                   # Forge
-                    #"Hide_Activities@shay.shayel.org"                       # Hide Activities Button
                     "just-perfection-desktop@just-perfection"               # Just Perfection
                     "drive-menu@gnome-shell-extensions.gcampax.github.com"  # Removable Drive Menu
                     "space-bar@luchrioh"                                    # Space Bar
