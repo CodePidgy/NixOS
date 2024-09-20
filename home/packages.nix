@@ -27,11 +27,6 @@
 		unzip
 		zip
 
-		# Sound
-		pamixer
-		pipewire
-		pulseaudio
-
 		# Coding
 		python3
 	];
