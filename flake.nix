@@ -12,12 +12,11 @@
 
 	outputs = inputs @ { self, nixpkgs, home-manager, ...  }: {
 		nixosConfigurations = {
-			# "nixos" is hostname
-			nixos = nixpkgs.lib.nixosSystem {
+			virtuos = nixpkgs.lib.nixosSystem {
 				system = "x86_64-linux";
 
 				modules = [
-					./nixos/configuration.nix
+					./virtuos/nixos/configuration.nix
 
 					home-manager.nixosModules.home-manager {
 					 	home-manager.useGlobalPkgs = true;
