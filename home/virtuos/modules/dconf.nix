@@ -49,10 +49,16 @@
 
             "org/gnome/desktop/interface" = {
                 clock-format = "12h";
+                clock-show-weekday = true;
+                show-battery-percentage = true;
             };
 
             "org/gnome/nautilus/preferences" = {
                 default-folder-viewer = "list-view";
+            };
+
+            "org/gnome/mutter" = {
+                center-new-windows = true;
             };
 
             "org/gnome/shell" = {
@@ -73,6 +79,7 @@
                             (entry "code.desktop" 2)
                             (entry "firefox.desktop" 3)
                             (entry "GitKraken.desktop" 4)
+                            (entry "thunderbird_thunderbird.desktop")
                         ]
                     ];
                 disable-user-extensions = false;
@@ -88,6 +95,7 @@
                 favorite-apps = [
                     "org.gnome.Nautilus.desktop"
                     "firefox.desktop"
+                    "thunderbird_thunderbird.desktop"
                     "code.desktop"
                     "GitKraken.desktop"
                 ];

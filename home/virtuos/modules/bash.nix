@@ -9,7 +9,7 @@
         '';
 
         shellAliases = {
-            rebuild = "sudo nixos-rebuild switch --flake ~/nix";
+            rebuild = "sudo nixos-rebuild switch --flake ~/nix#virtuos";
         };
     };
 }

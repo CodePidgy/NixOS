@@ -16,13 +16,13 @@
 				system = "x86_64-linux";
 
 				modules = [
-					./virtuos/nixos/configuration.nix
+					./nixos/virtuos/configuration.nix
 
 					home-manager.nixosModules.home-manager {
 					 	home-manager.useGlobalPkgs = true;
 					 	home-manager.useUserPackages = true;
 
-					 	home-manager.users.aidan = import ./home/home.nix;
+					 	home-manager.users.aidan = import ./home/virtuos/home.nix;
 					}
 				];
 			};

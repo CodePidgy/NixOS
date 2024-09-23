@@ -4,6 +4,6 @@
 		./dconf.nix
 		./git.nix
 		./gtk.nix
-		#./gnome.nix
+		./thunderbird.nix
 	];
 }
