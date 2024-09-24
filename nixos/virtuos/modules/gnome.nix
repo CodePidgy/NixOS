@@ -24,9 +24,9 @@
         gnome-music
         #gnome-screenshot
         #gnome-system-monitor
+        gnome-terminal
         gnome-weather
         pkgs.gnome-connections
-        #pkgs.gnome-terminal
         #pkgs.gnome-text-editor
         pkgs.gnome-tour
     ];

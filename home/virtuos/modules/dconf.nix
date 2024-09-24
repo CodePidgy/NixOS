@@ -77,10 +77,11 @@
                         [
                             (entry "System" 0)
                             (entry "Utility" 1)
-                            (entry "code.desktop" 2)
+                            (entry "Alacritty.desktop" 2)
                             (entry "firefox.desktop" 3)
                             (entry "GitKraken.desktop" 4)
-                            (entry "thunderbird_thunderbird.desktop")
+                            (entry "thunderbird.desktop" 5)
+                            (entry "code.desktop" 6)
                         ]
                     ];
                 disable-user-extensions = false;
@@ -96,7 +97,7 @@
                 favorite-apps = [
                     "org.gnome.Nautilus.desktop"
                     "firefox.desktop"
-                    "thunderbird_thunderbird.desktop"
+                    "thunderbird.desktop"
                     "code.desktop"
                     "GitKraken.desktop"
                 ];
