@@ -42,7 +42,7 @@
                 apps = [
                     "btop.desktop"
                     "ca.desrt.dconf-editor.desktop"
-                    "com.mattjakemen.ExtensionManager.desktop"
+                    "com.mattjakeman.ExtensionManager.desktop"
                     "gparted.desktop"
                     "org.gnome.tweaks.desktop"
                 ];
