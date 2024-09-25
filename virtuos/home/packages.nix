@@ -8,6 +8,7 @@
 
 		# GNOME extensions
 		gnomeExtensions.astra-monitor
+		gnomeExtensions.custom-accent-colors
 		gnomeExtensions.dash-to-panel
 		gnomeExtensions.just-perfection
 		gnomeExtensions.space-bar
