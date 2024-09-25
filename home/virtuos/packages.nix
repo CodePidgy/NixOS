@@ -13,7 +13,6 @@
 		gnomeExtensions.space-bar
 
         # Desktop apps
-		alacritty
         firefox
         gitkraken
         vscode
