@@ -8,9 +8,6 @@
 		# Desktop apps
 		gparted
 
-		# CLI tools
-		bash
-
 		# Sound
 		pamixer
 		pipewire
