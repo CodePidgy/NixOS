@@ -62,6 +62,13 @@
                 center-new-windows = true;
             };
 
+            "org/gnome/settings-daemon/plugins/color" = {
+                night-light-enabled = true;
+                night-light-schedule-automatic = false;
+                night-light-schedule-from = 6.0;
+                night-light-schedule-to = 18.0;
+            };
+
             "org/gnome/shell" = {
                 app-picker-layout = let
                     entry = name: position:
