@@ -2,9 +2,9 @@
     # Packages that don't require root
 	home.packages = with pkgs; [
 		# GNOME apps
-		gnome.dconf-editor
+		dconf-editor
 		gnome-extension-manager
-		gnome.gnome-tweaks
+		gnome-tweaks
 
 		# GNOME extensions
 		gnomeExtensions.astra-monitor

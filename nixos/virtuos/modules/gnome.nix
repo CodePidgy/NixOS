@@ -1,5 +1,5 @@
 { pkgs, ... }: {
-    environment.gnome.excludePackages = with pkgs.gnome; [
+    environment.gnome.excludePackages = with pkgs; [
         baobab         # Disk Usage Analyzer
         epiphany       # Web Browser
         #evince        # Document Viewer
@@ -9,8 +9,8 @@
         simple-scan    # Document Viewer
         totem          # Video Player
         yelp           # Help Viewer
-        #pkgs.loupe     # Image Viewer
-        pkgs.snapshot  # Camera
+        #loupe     # Image Viewer
+        snapshot  # Camera
 
         #gnome-calculator
         gnome-calendar
@@ -26,8 +26,8 @@
         #gnome-system-monitor
         gnome-terminal
         gnome-weather
-        pkgs.gnome-connections
-        #pkgs.gnome-text-editor
-        pkgs.gnome-tour
+        gnome-connections
+        #gnome-text-editor
+        gnome-tour
     ];
 }
