@@ -122,6 +122,7 @@
             "org/gnome/shell/extensions/just-perfection" = {
                 accessibility-menu = false;
                 keyboard-layout = false;
+                startup-status = 0;
                 window-demands-attention-focus = true;
                 workspace = false;
                 workspace-peek = false;
