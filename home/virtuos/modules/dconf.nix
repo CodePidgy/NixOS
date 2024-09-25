@@ -122,10 +122,10 @@
             "org/gnome/shell/extensions/just-perfection" = {
                 accessibility-menu = false;
                 keyboard-layout = false;
-                world-clock = false;
                 window-demands-attention-focus = true;
                 workspace = false;
                 workspace-peek = false;
+                world-clock = false;
             };
 
             "org/gtk/gtk4/settings/file-chooser" = {
