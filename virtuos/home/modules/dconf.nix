@@ -89,7 +89,7 @@
                             (entry "Utility" 1)
                             (entry "Alacritty.desktop" 2)
                             (entry "firefox.desktop" 3)
-                            (entry "GitKraken Desktop.desktop" 4)
+                            (entry "com.axosoft.GitKraken.desktop" 4)
                             (entry "thunderbird.desktop" 5)
                             (entry "code.desktop" 6)
                         ]
