@@ -34,6 +34,7 @@
                     "org.gnome.Settings.desktop"       # Settings
                     "org.gnome.SystemMonitor.desktop"  # System Monitor
                     "org.gnome.TextEditor.desktop"     # Text Editor
+                    "org.gnome.tweaks.desktop"         # Tweaks
                 ];
             };
 
@@ -45,7 +46,6 @@
                     "ca.desrt.dconf-editor.desktop"
                     "com.mattjakeman.ExtensionManager.desktop"
                     "gparted.desktop"
-                    "org.gnome.tweaks.desktop"
                 ];
             };
 
