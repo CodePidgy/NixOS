@@ -15,7 +15,6 @@
 
         # Desktop apps
         firefox
-        gitkraken
         vscode
 
 		# CLI utils
