@@ -116,10 +116,6 @@
                 blink_timeout = 0;
                 unfocused_hollow = false;
             };
-
-            mouse = {
-                hide_when_typing = true;
-            };
         };
     };
 }
