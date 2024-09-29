@@ -32,6 +32,7 @@
                     "org.gnome.Loupe.desktop"          # Image Viewer
                     "nixos-manual.desktop"             # NixOS Manual
                     "org.gnome.Settings.desktop"       # Settings
+                    "org.gnome.Software.desktop"       # Software
                     "org.gnome.SystemMonitor.desktop"  # System Monitor
                     "org.gnome.TextEditor.desktop"     # Text Editor
                     "org.gnome.tweaks.desktop"         # Tweaks
