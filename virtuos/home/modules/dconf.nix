@@ -45,6 +45,7 @@
                     "Alacritty.desktop"
                     "btop.desktop"
                     "ca.desrt.dconf-editor.desktop"
+                    "dropbox.desktop"
                     "com.mattjakeman.ExtensionManager.desktop"
                     "gparted.desktop"
                 ];
