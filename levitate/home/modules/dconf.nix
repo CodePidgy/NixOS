@@ -57,6 +57,10 @@
                 show-battery-percentage = true;
             };
 
+            "org/gnome/desktop/session" = {
+                idle-delay = 900;
+            };
+
             "org/gnome/nautilus/preferences" = {
                 default-folder-viewer = "list-view";
             };
@@ -70,6 +74,10 @@
                 night-light-schedule-automatic = false;
                 night-light-schedule-from = 6.0;
                 night-light-schedule-to = 18.0;
+            };
+
+            "org/gnome/settings-daemon/plugins/power" = {
+                power-button-action = "interactive";
             };
 
             "org/gnome/shell" = {
@@ -117,10 +125,12 @@
 
             "org/gnome/shell/extensions/astra-monitor" = {
                 headers-height = 20;
+                memory-update = 1.0;
                 network-update = 1.0;
                 processor-gpu = false;
                 processor-update = 1.0;
                 storage-header-graph = true;
+                storage-ignored = "[\"nvme0n1p1\",\"nvme0n1p3\",\"nvme0n1p4\"]";
                 storage-update = 1.0;
             };
 
