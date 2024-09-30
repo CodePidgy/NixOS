@@ -24,7 +24,7 @@
                     "org.gnome.FileRoller.desktop"     # Archive Manager
                     "org.gnome.Calculator.desktop"     # Calculator
                     "org.gnome.clocks.desktop"         # Clocks
-                    "org.gnome.Console.desktop"        # Terminal
+                    "org.gnome.Console.desktop"        # Console
                     "org.gnome.DiskUtility.desktop"    # Disks
                     "org.gnome.Evince.desktop"         # Document Viewer
                     "org.gnome.Extensions.desktop"     # Extensions
@@ -42,12 +42,12 @@
             "org/gnome/desktop/app-folders/folders/Utility" = {
                 name = "Utility";
                 apps = [
-                    "Alacritty.desktop"
-                    "btop.desktop"
-                    "ca.desrt.dconf-editor.desktop"
-                    "com.mattjakeman.ExtensionManager.desktop"
-                    "gparted.desktop"
-                    "maestral.desktop"
+                    "Alacritty.desktop"                         # Alacritty
+                    "btop.desktop"                              # btop++
+                    "ca.desrt.dconf-editor.desktop"             # dconf Editor
+                    "com.mattjakeman.ExtensionManager.desktop"  # Extension Manager
+                    "gparted.desktop"                           # GParted
+                    "maestral.desktop"                          # Maestral
                 ];
             };
 
@@ -99,12 +99,12 @@
                         [
                             (entry "System" 0)
                             (entry "Utility" 1)
-                            (entry "Alacritty.desktop" 2)
-                            (entry "cutecom.desktop" 3)
-                            (entry "firefox.desktop" 4)
-                            (entry "com.axosoft.GitKraken.desktop" 5)
-                            (entry "thunderbird.desktop" 6)
-                            (entry "code.desktop" 7)
+                            (entry "Alacritty.desktop" 2)              # Alacritty
+                            (entry "cutecom.desktop" 3)                # CuteCom
+                            (entry "firefox.desktop" 4)                # Firefox
+                            (entry "com.axosoft.GitKraken.desktop" 5)  # GitKraken
+                            (entry "thunderbird.desktop" 6)            # Thunderbird
+                            (entry "code.desktop" 7)                   # Visual Studio Code
                         ]
                     ];
                 disable-user-extensions = false;
@@ -119,11 +119,11 @@
                     "user-theme@gnome-shell-extensions.gcampax.github.com"  # User Themes
                 ];
                 favorite-apps = [
-                    "org.gnome.Nautilus.desktop"
-                    "firefox.desktop"
-                    "thunderbird.desktop"
-                    "code.desktop"
-                    "com.axosoft.GitKraken.desktop"
+                    "org.gnome.Nautilus.desktop"     # Files
+                    "firefox.desktop"                # Firefox
+                    "thunderbird.desktop"            # Thunderbird
+                    "code.desktop"                   # Visual Studio Code
+                    "com.axosoft.GitKraken.desktop"  # GitKraken
                 ];
                 remember-mount-password = true;
             };
