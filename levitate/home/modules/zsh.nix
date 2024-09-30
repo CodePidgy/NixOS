@@ -1,7 +1,7 @@
 {
     programs.zsh = {
         shellAliases = {
-            rebuild = "sudo nixos-rebuild switch --flake ~/nix#levitate";
+            rebuild = "rmbak; sudo nixos-rebuild switch --flake ~/nix#levitate";
         };
     };
 }
