@@ -118,7 +118,7 @@
                     "firefox.desktop"
                     "thunderbird.desktop"
                     "code.desktop"
-                    "GitKraken Desktop.desktop"
+                    "com.axosoft.GitKraken.desktop"
                 ];
                 remember-mount-password = true;
             };
