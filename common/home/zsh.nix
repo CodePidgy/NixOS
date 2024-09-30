@@ -39,6 +39,7 @@
         '';
 
         shellAliases = {
+            clean = "nix-collect-garbage --delete-older-than 7d";
             ls = "eza -a --color=always";
             rmbak = "if [ -f ~/.config/gtk-4.0/gtk.css.bak ]; then rm ~/.config/gtk-4.0/gtk.css.bak; fi";
             upgrade = "nix flake update --flake ~/nix";
