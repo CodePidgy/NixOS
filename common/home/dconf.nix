@@ -51,6 +51,10 @@
                 ];
             };
 
+            "org/gnome/desktop/input-sources" = {
+                sources = [ (mkTuple [ "xkb" "us" ]) ];
+            };
+
             "org/gnome/desktop/interface" = {
                 clock-format = "12h";
                 clock-show-weekday = true;
