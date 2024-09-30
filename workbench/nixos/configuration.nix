@@ -1,10 +1,8 @@
 { inputs, ... }: {
 	imports = [
+		../../common/nixos/configuration.nix
 		./hardware-configuration.nix
 		./packages.nix
 		./modules
-		../../common/nixos
 	];
-
-	system.stateVersion = "24.05";
 }
