@@ -19,17 +19,15 @@
 		# Services
 		maestral-gui
 
-		# CLI utils
+		# CLI
 		btop
 		dconf2nix
 		eza
 		fzf
 		git
 		neofetch
+		python3
 		unzip
 		zip
-
-		# Coding
-		python3
 	];
 }
