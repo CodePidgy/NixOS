@@ -41,6 +41,21 @@
 					}
 				];
 			};
+
+			workbench = nixpkgs.lib.nixosSystem {
+				system = "x86_64-linux";
+
+				modules = [
+					./workbench/nixos/configuration.nix
+
+					home-manager.nixosModules.home-manager {
+						home-manager.useGlobalPkgs = true;
+						home-manager.useUserPackages = true;
+
+						home-manager.users.aidan = import ./workbench/home/home.nix;
+					}
+				];
+			};
 		};
 	};
 }
