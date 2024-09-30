@@ -24,7 +24,6 @@
                     "org.gnome.FileRoller.desktop"     # Archive Manager
                     "org.gnome.Calculator.desktop"     # Calculator
                     "org.gnome.clocks.desktop"         # Clocks
-                    "org.gnome.Console.desktop"        # Console
                     "org.gnome.DiskUtility.desktop"    # Disks
                     "org.gnome.Evince.desktop"         # Document Viewer
                     "org.gnome.Extensions.desktop"     # Extensions

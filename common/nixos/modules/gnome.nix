@@ -16,6 +16,7 @@
         gnome-calendar
         gnome-characters
         #gnome-clocks
+        gnome-console
         gnome-contacts
         #gnome-disk-utility
         gnome-font-viewer
