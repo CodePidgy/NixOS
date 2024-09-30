@@ -19,6 +19,7 @@
 
 		# CLI utils
 		btop
+		dconf2nix
 		eza
 		fzf
 		git
