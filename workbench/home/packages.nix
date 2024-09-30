@@ -7,5 +7,6 @@
         # Desktop apps
 		cutecom
 		mqtt-explorer
+		postman
 	];
 }
