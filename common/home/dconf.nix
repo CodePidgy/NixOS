@@ -141,7 +141,6 @@
 
             "org/gnome/shell/extensions/dash-to-panel" = {
                 appicon-margin = 4;
-                panel-sizes = "{\"0\":32}";
                 show-apps-icon-side-padding = 4;
             };
 
