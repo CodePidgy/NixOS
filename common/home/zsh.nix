@@ -40,7 +40,6 @@
 
         shellAliases = {
             ls = "eza -a --color=always";
-            rebuild = "sudo nixos-rebuild switch --flake ~/nix#levitate";
             upgrade = "nix flake update --flake ~/nix";
         };
     };
