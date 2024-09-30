@@ -100,10 +100,11 @@
                             (entry "System" 0)
                             (entry "Utility" 1)
                             (entry "Alacritty.desktop" 2)
-                            (entry "firefox.desktop" 3)
-                            (entry "com.axosoft.GitKraken.desktop" 4)
-                            (entry "thunderbird.desktop" 5)
-                            (entry "code.desktop" 6)
+                            (entry "cutecom.desktop" 3)
+                            (entry "firefox.desktop" 4)
+                            (entry "com.axosoft.GitKraken.desktop" 5)
+                            (entry "thunderbird.desktop" 6)
+                            (entry "code.desktop" 7)
                         ]
                     ];
                 disable-user-extensions = false;

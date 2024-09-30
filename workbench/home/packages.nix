@@ -13,6 +13,7 @@
 		gnomeExtensions.space-bar
 
         # Desktop apps
+		cutecom
         firefox
         vscode
 
