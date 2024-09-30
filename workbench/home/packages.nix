@@ -6,5 +6,6 @@
 
         # Desktop apps
 		cutecom
+		mqtt-explorer
 	];
 }

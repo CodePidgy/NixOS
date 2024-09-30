@@ -102,8 +102,9 @@
                             (entry "cutecom.desktop" 3)                # CuteCom
                             (entry "firefox.desktop" 4)                # Firefox
                             (entry "com.axosoft.GitKraken.desktop" 5)  # GitKraken
-                            (entry "thunderbird.desktop" 6)            # Thunderbird
-                            (entry "code.desktop" 7)                   # Visual Studio Code
+                            (entry "mqtt-explorer.desktop" 6)          # MQTT Explorer
+                            (entry "thunderbird.desktop" 7)            # Thunderbird
+                            (entry "code.desktop" 8)                   # Visual Studio Code
                         ]
                     ];
                 disable-user-extensions = false;
