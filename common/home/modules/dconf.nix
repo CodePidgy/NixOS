@@ -47,6 +47,7 @@
                     "ca.desrt.dconf-editor.desktop"
                     "com.mattjakeman.ExtensionManager.desktop"
                     "gparted.desktop"
+                    "maestral.desktop"
                 ];
             };
 
