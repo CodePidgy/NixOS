@@ -10,8 +10,8 @@
 
             "org/gnome/desktop/wm/preferences" = {
                 button-layout = "menu:minimize,maximize,close";
-                num-workspaces = 2;
-                workspace-names = ["1" "2"];
+                num-workspaces = 1;
+                workspace-names = ["1"];
             };
 
             "org/gnome/desktop/app-folders" = {
@@ -114,7 +114,6 @@
                     "dash-to-panel@jderose9.github.com"                     # Dash to Panel
                     "just-perfection-desktop@just-perfection"               # Just Perfection
                     "drive-menu@gnome-shell-extensions.gcampax.github.com"  # Removable Drive Menu
-                    "space-bar@luchrioh"                                    # Space Bar
                     "Vitals@CoreCoding.com"                                 # Vitals
                     "user-theme@gnome-shell-extensions.gcampax.github.com"  # User Themes
                 ];
