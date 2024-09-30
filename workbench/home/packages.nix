@@ -3,7 +3,6 @@
 	home.packages = with pkgs; [
 		# GNOME apps
 		dconf-editor
-		gnome-extension-manager
 		gnome-tweaks
 
 		# GNOME extensions
