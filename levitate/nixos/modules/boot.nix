@@ -1,5 +1,18 @@
 {
-	boot.loader.grub.enable = true;
-	boot.loader.grub.device = "/dev/nvme0n1p1";
-	boot.loader.grub.useOSProber = true;
+	boot = {
+		loader = {
+			efi = {
+				canTouchEfiVariables = true;
+				efiSysMountPoint = "/boot/efi";
+			};
+
+			grub = {
+				enable = true;
+
+				device = "nodev";
+				efiSupport = true;
+				useOSProber = true;
+			};
+		};
+	};
 }
