@@ -109,6 +109,7 @@
                     ];
                 disable-user-extensions = false;
                 enabled-extensions = [
+                    "appindicatorsupport@rgcjonas.gmail.com"                # AppIndicator Support
                     "monitor@astraext.github.io"                            # Astra Monitor
                     "custom-accent-colors@demiskp"                          # Custom Accent Colors
                     "dash-to-panel@jderose9.github.com"                     # Dash to Panel

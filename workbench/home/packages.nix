@@ -6,6 +6,7 @@
 		gnome-tweaks
 
 		# GNOME extensions
+		gnomeExtensions.appindicator
 		gnomeExtensions.astra-monitor
 		gnomeExtensions.custom-accent-colors
 		gnomeExtensions.dash-to-panel
