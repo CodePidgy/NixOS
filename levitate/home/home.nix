@@ -1,7 +1,8 @@
 {
 	imports = [
-		./modules
 		./packages.nix
+		./modules
+		../../common/home
 	];
 
 	home = {

@@ -9,8 +9,8 @@
         simple-scan    # Document Viewer
         totem          # Video Player
         yelp           # Help Viewer
-        #loupe     # Image Viewer
-        snapshot  # Camera
+        #loupe          # Image Viewer
+        snapshot       # Camera
 
         #gnome-calculator
         gnome-calendar
