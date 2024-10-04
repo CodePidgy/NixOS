@@ -79,6 +79,18 @@
                 night-light-schedule-to = 18.0;
             };
 
+            "org/gnome/settings-daemon/plugins/media-keys" = {
+                custom-keybindings = [
+                    "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/"
+                ];
+            };
+
+            "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0" = {
+                binding = "<Primary><Alt>t";
+                command = "alacritty";
+                name = "Open Terminal";
+            };
+
             "org/gnome/settings-daemon/plugins/power" = {
                 power-button-action = "interactive";
             };
