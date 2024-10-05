@@ -160,7 +160,104 @@
 
             "org/gnome/shell/extensions/dash-to-panel" = {
                 appicon-margin = 4;
-                panel-element-positions = "{ \"0\": [ { \"element\": \"leftBox\", \"visible\": true, \"position\": \"stackedTL\" }, { \"element\": \"showAppsButton\", \"visible\": true, \"position\": \"stackedBR\" }, { \"element\": \"activitiesButton\", \"visible\": false, \"position\": \"stackedTL\" }, { \"element\": \"taskbar\", \"visible\": true, \"position\": \"centerMonitor\" }, { \"element\": \"centerBox\", \"visible\": true, \"position\": \"stackedBR\" }, { \"element\": \"rightBox\", \"visible\": true, \"position\": \"stackedBR\" }, { \"element\": \"dateMenu\", \"visible\": true, \"position\": \"stackedBR\" }, { \"element\": \"systemMenu\", \"visible\": true, \"position\": \"stackedBR\" }, { \"element\": \"desktopButton\", \"visible\": true, \"position\": \"stackedBR\" } ], \"1\": [ { \"element\": \"leftBox\", \"visible\": true, \"position\": \"stackedTL\" }, { \"element\": \"showAppsButton\", \"visible\": true, \"position\": \"stackedBR\" }, { \"element\": \"activitiesButton\", \"visible\": false, \"position\": \"stackedTL\" }, { \"element\": \"taskbar\", \"visible\": true, \"position\": \"centerMonitor\" }, { \"element\": \"centerBox\", \"visible\": true, \"position\": \"stackedBR\" }, { \"element\": \"rightBox\", \"visible\": true, \"position\": \"stackedBR\" }, { \"element\": \"dateMenu\", \"visible\": true, \"position\": \"stackedBR\" }, { \"element\": \"systemMenu\", \"visible\": true, \"position\": \"stackedBR\" }, { \"element\": \"desktopButton\", \"visible\": true, \"position\": \"stackedBR\" } ] }";
+                panel-element-positions = ''
+                    {
+                        "0": [
+                            {
+                                "element": "leftBox",
+                                "visible": true,
+                                "position": "stackedTL"
+                            },
+                            {
+                                "element": "showAppsButton",
+                                "visible": true,
+                                "position": "stackedBR"
+                            },
+                            {
+                                "element": "activitiesButton",
+                                "visible": false,
+                                "position": "stackedTL"
+                            },
+                            {
+                                "element": "taskbar",
+                                "visible": true,
+                                "position": "centerMonitor"
+                            },
+                            {
+                                "element": "centerBox",
+                                "visible": true,
+                                "position": "stackedBR"
+                            },
+                            {
+                                "element": "rightBox",
+                                "visible": true,
+                                "position": "stackedBR"
+                            },
+                            {
+                                "element": "dateMenu",
+                                "visible": true,
+                                "position": "stackedBR"
+                            },
+                            {
+                                "element": "systemMenu",
+                                "visible": true,
+                                "position": "stackedBR"
+                            },
+                            {
+                                "element": "desktopButton",
+                                "visible": true,
+                                "position": "stackedBR"
+                            }
+                        ],
+                        "1": [
+                            {
+                                "element": "leftBox",
+                                "visible": true,
+                                "position": "stackedTL"
+                            },
+                            {
+                                "element": "showAppsButton",
+                                "visible": true,
+                                "position": "stackedBR"
+                            },
+                            {
+                                "element": "activitiesButton",
+                                "visible": false,
+                                "position": "stackedTL"
+                            },
+                            {
+                                "element": "taskbar",
+                                "visible": true,
+                                "position": "centerMonitor"
+                            },
+                            {
+                                "element": "centerBox",
+                                "visible": true,
+                                "position": "stackedBR"
+                            },
+                            {
+                                "element": "rightBox",
+                                "visible": true,
+                                "position": "stackedBR"
+                            },
+                            {
+                                "element": "dateMenu",
+                                "visible": true,
+                                "position": "stackedBR"
+                            },
+                            {
+                                "element": "systemMenu",
+                                "visible": true,
+                                "position": "stackedBR"
+                            },
+                            {
+                                "element": "desktopButton",
+                                "visible": true,
+                                "position": "stackedBR"
+                            }
+                        ]
+                    }
+                '';
                 show-apps-icon-side-padding = 4;
             };
 
