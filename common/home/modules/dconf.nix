@@ -143,14 +143,14 @@
 
             "org/gnome/shell/extensions/astra-monitor" = {
                 headers-height = 20;
-                memory-update = 1.0;
-                network-update = 1.0;
+                memory-update = 2.0;
+                network-update = 2.0;
                 panel-box = "left";
                 processor-gpu = false;
-                processor-update = 1.0;
+                processor-update = 2.0;
                 storage-header-graph = true;
                 storage-ignored = "[\"nvme0n1p1\", \"nvme0n1p3\", \"nvme0n1p4\"]";
-                storage-update = 1.0;
+                storage-update = 2.0;
             };
 
             "org/gnome/shell/extensions/custom-accent-colors" = {
