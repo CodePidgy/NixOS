@@ -26,10 +26,12 @@
 		fzf
 		git
 		neofetch
+		unzip
+		zip
+
+		# Coding
 		pipx
 		python3
 		python312Packages.pip
-		unzip
-		zip
 	];
 }
