@@ -32,6 +32,5 @@
 		# Coding
 		pipx
 		python3
-		python312Packages.pip
 	];
 }
