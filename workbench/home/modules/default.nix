@@ -1,7 +1,7 @@
 {
 	imports = [
 		./dconf.nix
-		./pyenv.nix
+		./direnv.nix
 		./zsh.nix
 	];
 }
