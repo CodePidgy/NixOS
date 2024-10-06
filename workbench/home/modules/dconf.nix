@@ -20,11 +20,6 @@
                 available-monitors = [ 1 0 ];
                 panel-sizes = ''{ "0": 32, "1": 32 }'';
                 primary-monitor = 1;
-                trans-dynamic-anim-target = 0.60;
-                trans-dynamic-behavior = "MAXIMIZED_WINDOWS";
-                trans-panel-opacity = 0.0;
-                trans-use-custom-opacity = true;
-                trans-use-dynamic-opacity = true;
             };
         };
     };

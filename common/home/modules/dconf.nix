@@ -196,6 +196,11 @@
                     }
                 '';
                 show-apps-icon-side-padding = 4;
+                trans-dynamic-anim-target = 0.60;
+                trans-dynamic-behavior = "MAXIMIZED_WINDOWS";
+                trans-panel-opacity = 0.0;
+                trans-use-custom-opacity = true;
+                trans-use-dynamic-opacity = true;
             };
 
             "org/gnome/shell/extensions/just-perfection" = {
