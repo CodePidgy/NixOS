@@ -167,6 +167,7 @@
             };
 
             "org/gnome/shell/extensions/dash-to-panel" = {
+                animate-appicon-hover = true;
                 appicon-margin = 4;
                 panel-element-positions = ''
                     {
