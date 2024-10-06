@@ -50,6 +50,11 @@
                 ];
             };
 
+            "org/gnome/desktop/background" = {
+                picture-uri = "file:///run/current-system/sw/share/backgrounds/gnome/blobs-l.svg";
+                picture-uri-dark = "file:///run/current-system/sw/share/backgrounds/gnome/blobs-d.svg";
+            };
+
             "org/gnome/desktop/input-sources" = {
                 sources = [ (mkTuple [ "xkb" "us" ]) ];
             };
@@ -58,6 +63,10 @@
                 clock-format = "12h";
                 clock-show-weekday = true;
                 show-battery-percentage = true;
+            };
+
+            "org/gnome/desktop/screensaver" = {
+                picture-uri = "file:///run/current-system/sw/share/backgrounds/gnome/blobs-l.svg";
             };
 
             "org/gnome/desktop/session" = {
