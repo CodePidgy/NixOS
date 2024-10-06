@@ -149,7 +149,6 @@
                 processor-gpu = false;
                 processor-update = 2.0;
                 storage-header-graph = true;
-                storage-ignored = "[\"nvme0n1p1\", \"nvme0n1p3\", \"nvme0n1p4\"]";
                 storage-update = 2.0;
             };
 

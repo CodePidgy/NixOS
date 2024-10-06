@@ -13,6 +13,7 @@
                 sensors-header-sensor2-layout = "horizontal";
                 sensors-header-sensor2-show = true;
                 sensors-update = 2.0;
+                storage-ignored = ''["nvme0n1p1", "nvme0n1p3", "nvme0n1p4"]'';
             };
 
             "org/gnome/shell/extensions/dash-to-panel" = {
