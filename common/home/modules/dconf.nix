@@ -3,17 +3,6 @@
         enable = true;
 
         settings = {
-            "org/gnome/desktop/interface" = {
-                color-scheme = "prefer-dark";
-                enable-hot-corners = false;
-            };
-
-            "org/gnome/desktop/wm/preferences" = {
-                button-layout = "menu:minimize,maximize,close";
-                num-workspaces = 1;
-                workspace-names = ["1"];
-            };
-
             "org/gnome/desktop/app-folders" = {
                 folder-children = [ "System" "Utility" ];
             };
@@ -60,6 +49,11 @@
             };
 
             "org/gnome/desktop/interface" = {
+                color-scheme = "prefer-dark";
+                enable-hot-corners = false;
+            };
+
+            "org/gnome/desktop/interface" = {
                 clock-format = "12h";
                 clock-show-weekday = true;
                 show-battery-percentage = true;
@@ -71,6 +65,11 @@
 
             "org/gnome/desktop/session" = {
                 idle-delay = mkUint32 900;
+            };
+
+            "org/gnome/desktop/wm/preferences" = {
+                button-layout = "menu:minimize,maximize,close";
+                num-workspaces = 1;
             };
 
             "org/gnome/nautilus/preferences" = {
