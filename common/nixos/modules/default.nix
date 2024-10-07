@@ -9,6 +9,7 @@
 		./services.nix
 		./sound.nix
 		./user.nix
+		./virtualisation.nix
 		./xserver.nix
 		./zsh.nix
 	];

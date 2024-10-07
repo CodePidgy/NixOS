@@ -123,9 +123,10 @@
                             (entry "firefox.desktop" 4)                # Firefox
                             (entry "com.axosoft.GitKraken.desktop" 5)  # GitKraken
                             (entry "mqtt-explorer.desktop" 6)          # MQTT Explorer
-                            (entry "postman.desktop" 7)                # Postman
-                            (entry "thunderbird.desktop" 8)            # Thunderbird
-                            (entry "code.desktop" 9)                   # Visual Studio Code
+                            (entry "virtualbox.desktop" 7)             # Oracle VM VirtualBox
+                            (entry "postman.desktop" 8)                # Postman
+                            (entry "thunderbird.desktop" 9)            # Thunderbird
+                            (entry "code.desktop" 10)                  # Visual Studio Code
                         ]
                     ];
                 disable-user-extensions = false;
