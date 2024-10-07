@@ -10,5 +10,6 @@
 		./sound.nix
 		./user.nix
 		./xserver.nix
+		./zsh.nix
 	];
 }
