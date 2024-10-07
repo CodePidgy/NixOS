@@ -127,7 +127,6 @@
                             (entry "postman.desktop" 7)                # Postman
                             (entry "thunderbird.desktop" 8)            # Thunderbird
                             (entry "code.desktop" 9)                   # Visual Studio Code
-                            (entry "com.ktechpit.whatsie.desktop" 10)  # Whatsie
                         ]
                     ];
                 disable-user-extensions = false;
@@ -145,7 +144,6 @@
                     "org.gnome.Nautilus.desktop"     # Files
                     "firefox.desktop"                # Firefox
                     "thunderbird.desktop"            # Thunderbird
-                    "com.ktechpit.whatsie.desktop"   # Whatsie
                     "code.desktop"                   # Visual Studio Code
                     "com.axosoft.GitKraken.desktop"  # GitKraken
                 ];
