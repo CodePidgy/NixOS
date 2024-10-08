@@ -21,6 +21,4 @@
 
         gtk4.extraConfig.gtk-application-prefer-dark-theme = 1;
     };
-
-    home.sessionVariables.GTK_THEME = "Yaru";
 }
