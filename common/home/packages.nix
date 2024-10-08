@@ -16,9 +16,6 @@
         firefox
         vscode
 
-		# Services
-		maestral-gui
-
 		# CLI
 		btop
 		dconf2nix
