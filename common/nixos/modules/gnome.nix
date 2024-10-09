@@ -2,8 +2,8 @@
     environment.gnome.excludePackages = with pkgs; [
         baobab         # Disk Usage Analyzer
         epiphany       # Web Browser
-        #evince        # Document Viewer
-        #file-roller   # Archive Manager
+        #evince         # Document Viewer
+        #file-roller    # File Roller
         geary          # Email Client
         seahorse       # Password Manager
         simple-scan    # Document Viewer

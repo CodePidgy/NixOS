@@ -10,12 +10,12 @@
             "org/gnome/desktop/app-folders/folders/System" = {
                 name = "System";
                 apps = [
-                    "org.gnome.FileRoller.desktop"     # Archive Manager
                     "org.gnome.Calculator.desktop"     # Calculator
                     "org.gnome.clocks.desktop"         # Clocks
                     "org.gnome.DiskUtility.desktop"    # Disks
                     "org.gnome.Evince.desktop"         # Document Viewer
                     "org.gnome.Extensions.desktop"     # Extensions
+                    "org.gnome.FileRoller.desktop"     # File Roller
                     "org.gnome.Nautilus.desktop"       # Files
                     "org.gnome.Loupe.desktop"          # Image Viewer
                     "nixos-manual.desktop"             # NixOS Manual
