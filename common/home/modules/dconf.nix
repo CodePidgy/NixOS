@@ -67,6 +67,13 @@
                 idle-delay = mkUint32 900;
             };
 
+            "org/gnome/desktop/wm/keybindings" = {
+                switch-applications = [];
+                switch-applications-backward = [];
+                switch-windows = [ "<Alt>Tab" ];
+                switch-windows-backward = [ "<Shift><Alt>Tab" ];
+            };
+
             "org/gnome/desktop/wm/preferences" = {
                 button-layout = "menu:minimize,maximize,close";
                 num-workspaces = 1;
