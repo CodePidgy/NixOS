@@ -101,6 +101,7 @@
 
             "org/gnome/settings-daemon/plugins/power" = {
                 power-button-action = "interactive";
+                sleep-inactive-ac-timeout = mkUint32 3600;
             };
 
             "org/gnome/shell" = {
