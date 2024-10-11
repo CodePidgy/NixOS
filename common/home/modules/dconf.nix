@@ -189,7 +189,7 @@
                             { "element": "rightBox", "visible": true, "position": "stackedBR" },
                             { "element": "dateMenu", "visible": true, "position": "stackedBR" },
                             { "element": "systemMenu", "visible": true, "position": "stackedBR" },
-                            { "element": "desktopButton", "visible": true, "position": "stackedBR" }
+                            { "element": "desktopButton", "false": true, "position": "stackedBR" }
                         ],
                         "1": [
                             { "element": "leftBox", "visible": true, "position": "stackedTL" },
@@ -200,7 +200,7 @@
                             { "element": "rightBox", "visible": true, "position": "stackedBR" },
                             { "element": "dateMenu", "visible": true, "position": "stackedBR" },
                             { "element": "systemMenu", "visible": true, "position": "stackedBR" },
-                            { "element": "desktopButton", "visible": true, "position": "stackedBR" }
+                            { "element": "desktopButton", "false": true, "position": "stackedBR" }
                         ]
                     }
                 '';
@@ -210,6 +210,7 @@
                 trans-panel-opacity = 0.0;
                 trans-use-custom-opacity = true;
                 trans-use-dynamic-opacity = true;
+                tray-padding = 4;
             };
 
             "org/gnome/shell/extensions/just-perfection" = {

@@ -6,13 +6,8 @@
                 sensors-header-sensor1 = ''
                     { "service": "hwmon", "path": [ "k10temp-{$15eb}", "Tctl", "input" ] }
                 '';
-                sensors-header-sensor2 = ''
-                    { "service": "hwmon", "path": [ "BAT1", "in0", "input" ] }
-                '';
                 sensors-header-sensor1-show = true;
-                sensors-header-sensor2-layout = "horizontal";
-                sensors-header-sensor2-show = true;
-                sensors-update = 2.0;
+                sensors-update = 1.0;
                 storage-ignored = ''["nvme0n1p1", "nvme0n1p3", "nvme0n1p4"]'';
             };
 
