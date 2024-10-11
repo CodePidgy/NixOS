@@ -179,8 +179,8 @@
 
             "org/gnome/shell/extensions/dash-to-panel" = {
                 animate-appicon-hover = true;
-                leftbox-padding = 0;
                 appicon-margin = 4;
+                leftbox-padding = 0;
                 panel-element-positions = ''
                     {
                         "0": [
