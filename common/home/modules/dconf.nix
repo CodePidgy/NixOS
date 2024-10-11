@@ -153,6 +153,7 @@
                 favorite-apps = [
                     "org.gnome.Nautilus.desktop"     # Files
                     "firefox.desktop"                # Firefox
+                    "discord.desktop"                # Discord
                     "thunderbird.desktop"            # Thunderbird
                     "code.desktop"                   # Visual Studio Code
                     "com.axosoft.GitKraken.desktop"  # GitKraken
@@ -178,6 +179,7 @@
 
             "org/gnome/shell/extensions/dash-to-panel" = {
                 animate-appicon-hover = true;
+                leftbox-padding = 0;
                 appicon-margin = 4;
                 panel-element-positions = ''
                     {
