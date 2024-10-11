@@ -127,15 +127,16 @@
                             (entry "System" 0)
                             (entry "Utility" 1)
                             (entry "Alacritty.desktop" 2)              # Alacritty
-                            (entry "cutecom.desktop" 3)                # CuteCom
-                            (entry "com.dropbox.Client.desktop" 4)     # Dropbox
-                            (entry "firefox.desktop" 5)                # Firefox
-                            (entry "com.axosoft.GitKraken.desktop" 6)  # GitKraken
-                            (entry "mqtt-explorer.desktop" 7)          # MQTT Explorer
-                            (entry "virtualbox.desktop" 8)             # Oracle VM VirtualBox
-                            (entry "postman.desktop" 9)                # Postman
-                            (entry "thunderbird.desktop" 10)           # Thunderbird
-                            (entry "code.desktop" 11)                  # Visual Studio Code
+                            (entry "discord.desktop" 3)                # Discord
+                            (entry "cutecom.desktop" 4)                # CuteCom
+                            (entry "com.dropbox.Client.desktop" 5)     # Dropbox
+                            (entry "firefox.desktop" 6)                # Firefox
+                            (entry "com.axosoft.GitKraken.desktop" 7)  # GitKraken
+                            (entry "mqtt-explorer.desktop" 8)          # MQTT Explorer
+                            (entry "virtualbox.desktop" 9)             # Oracle VM VirtualBox
+                            (entry "postman.desktop" 10)               # Postman
+                            (entry "thunderbird.desktop" 11)           # Thunderbird
+                            (entry "code.desktop" 12)                  # Visual Studio Code
                         ]
                     ];
                 disable-user-extensions = false;
