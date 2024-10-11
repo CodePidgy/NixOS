@@ -4,5 +4,7 @@
 		# Desktop apps
 		discord
 
+		# Coding
+		nodejs
 	];
 }
