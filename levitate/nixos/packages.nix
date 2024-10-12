@@ -6,5 +6,6 @@
 
 		# Coding
 		nodejs
+		openssl
 	];
 }
