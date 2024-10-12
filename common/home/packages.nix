@@ -1,18 +1,18 @@
 { pkgs, ... }: {
     # Packages that don't require root
 	home.packages = with pkgs; [
-		# GNOME apps
+		# GNOME
 		dconf-editor
 		gnome-tweaks
 
-		# GNOME extensions
+		# Extensions
 		gnomeExtensions.appindicator
 		gnomeExtensions.astra-monitor
 		gnomeExtensions.custom-accent-colors
 		gnomeExtensions.dash-to-panel
 		gnomeExtensions.just-perfection
 
-        # Desktop apps
+        # Desktop
         firefox
         vscode
 

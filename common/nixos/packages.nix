@@ -5,7 +5,7 @@
 
 	# Packages that require root
 	environment.systemPackages = with pkgs; [
-		# Desktop apps
+		# Desktop
 		gparted
 
 		# Sound

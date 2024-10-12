@@ -1,10 +1,10 @@
 { pkgs, ... }: {
     # Packages that don't require root
 	home.packages = with pkgs; [
-		# GNOME apps
+		# GNOME
 		gnome-extension-manager
 
-        # Desktop apps
+        # Desktop
 		cutecom
 		mqtt-explorer
 		postman
