@@ -36,7 +36,6 @@
                     "com.dropbox.Client.desktop"                # Dropbox
                     "com.mattjakeman.ExtensionManager.desktop"  # Extension Manager
                     "gparted.desktop"                           # GParted
-                    "maestral.desktop"                          # Maestral
                 ];
             };
 
