@@ -33,6 +33,7 @@
                     "Alacritty.desktop"                         # Alacritty
                     "btop.desktop"                              # btop++
                     "ca.desrt.dconf-editor.desktop"             # dconf Editor
+                    "com.dropbox.Client.desktop"                # Dropbox
                     "com.mattjakeman.ExtensionManager.desktop"  # Extension Manager
                     "gparted.desktop"                           # GParted
                     "maestral.desktop"                          # Maestral
