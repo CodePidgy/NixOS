@@ -127,8 +127,8 @@
                             (entry "System" 0)
                             (entry "Utility" 1)
                             (entry "Alacritty.desktop" 2)              # Alacritty
-                            (entry "discord.desktop" 3)                # Discord
-                            (entry "cutecom.desktop" 4)                # CuteCom
+                            (entry "cutecom.desktop" 3)                # CuteCom
+                            (entry "discord.desktop" 4)                # Discord
                             (entry "com.dropbox.Client.desktop" 5)     # Dropbox
                             (entry "firefox.desktop" 6)                # Firefox
                             (entry "com.axosoft.GitKraken.desktop" 7)  # GitKraken
