@@ -5,6 +5,7 @@
 		discord
 
 		# Coding
+		dotnetCorePackages.dotnet_8.sdk
 		nodejs
 		openssl
 	];
