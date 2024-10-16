@@ -162,7 +162,7 @@
             };
 
             "org/gnome/shell/extensions/astra-monitor" = {
-                headers-height = 20;
+                headers-height = 26;
                 memory-update = 1.0;
                 network-update = 1.0;
                 panel-box = "left";
