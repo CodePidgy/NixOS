@@ -6,6 +6,7 @@
 		./git.nix
 		./gtk.nix
 		./thunderbird.nix
+		./tmux.nix
 		./zsh.nix
 	];
 }
