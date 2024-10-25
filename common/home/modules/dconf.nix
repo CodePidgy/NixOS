@@ -138,6 +138,7 @@
                             (entry "thunderbird.desktop" 11)           # Thunderbird
                             (entry "transmission-gtk.desktop" 12)      # Transmission
                             (entry "code.desktop" 14)                  # Visual Studio Code
+                            (entry "vlc.desktop" 15)                   # VLC
                         ]
                     ];
                 disable-user-extensions = false;

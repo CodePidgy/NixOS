@@ -4,6 +4,7 @@
 		# Desktop
 		discord
 		transmission_4-gtk
+		vlc
 
 		# Coding
 		dotnetCorePackages.dotnet_8.sdk
