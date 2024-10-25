@@ -3,6 +3,7 @@
 	environment.systemPackages = with pkgs; [
 		# Desktop
 		discord
+		transmission_4-gtk
 
 		# Coding
 		dotnetCorePackages.dotnet_8.sdk

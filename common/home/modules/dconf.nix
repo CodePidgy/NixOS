@@ -136,7 +136,8 @@
                             (entry "virtualbox.desktop" 9)             # Oracle VM VirtualBox
                             (entry "postman.desktop" 10)               # Postman
                             (entry "thunderbird.desktop" 11)           # Thunderbird
-                            (entry "code.desktop" 12)                  # Visual Studio Code
+                            (entry "transmission-gtk.desktop" 12)      # Transmission
+                            (entry "code.desktop" 14)                  # Visual Studio Code
                         ]
                     ];
                 disable-user-extensions = false;
