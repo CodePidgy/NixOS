@@ -16,16 +16,6 @@
         firefox
         vscode
 
-		# CLI
-		btop
-		dconf2nix
-		eza
-		fzf
-		git
-		neofetch
-		unzip
-		zip
-
 		# Coding
 		pipx
 		python3

@@ -12,6 +12,16 @@
 		pamixer
 		pipewire
 		pulseaudio
+
+		# CLI
+		btop
+		dconf2nix
+		eza
+		fzf
+		git
+		neofetch
+		unzip
+		zip
 	];
 
 	fonts.packages = with pkgs; [
