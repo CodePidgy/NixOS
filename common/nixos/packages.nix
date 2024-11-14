@@ -20,6 +20,8 @@
 		fzf
 		git
 		neofetch
+		rar
+		unrar
 		unzip
 		zip
 	];
