@@ -3,8 +3,6 @@
         enable = true;
 
         settings = {
-            shell = "/etc/profiles/per-user/aidan/bin/zsh";
-
             env = {
                 TERM = "xterm-256color";
             };
@@ -115,6 +113,10 @@
                 blink_interval = 500;
                 blink_timeout = 0;
                 unfocused_hollow = false;
+            };
+
+            terminal = {
+                shell = "/etc/profiles/per-user/aidan/bin/zsh";
             };
         };
     };
