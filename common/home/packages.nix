@@ -8,6 +8,7 @@
 		# Extensions
 		gnomeExtensions.appindicator
 		gnomeExtensions.astra-monitor
+		gnomeExtensions.blur-my-shell
 		gnomeExtensions.custom-accent-colors
 		gnomeExtensions.dash-to-panel
 		gnomeExtensions.just-perfection

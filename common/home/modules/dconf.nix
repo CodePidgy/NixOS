@@ -144,6 +144,7 @@
                 disable-user-extensions = false;
                 enabled-extensions = [
                     "appindicatorsupport@rgcjonas.gmail.com"                # AppIndicator Support
+                    "blur-my-shell@aunetx"                                  # Blur My Shell
                     "monitor@astraext.github.io"                            # Astra Monitor
                     "custom-accent-colors@demiskp"                          # Custom Accent Colors
                     "dash-to-panel@jderose9.github.com"                     # Dash to Panel
