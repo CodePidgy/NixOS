@@ -8,8 +8,8 @@
         };
 
         cursorTheme = {
-            name = "Yaru";
-            package = yaru-theme;
+            name = "oreo_red_cursors";
+            package = oreo-cursors-plus;
         };
 
         iconTheme = {
@@ -18,7 +18,6 @@
         };
 
         gtk3.extraConfig.gtk-application-prefer-dark-theme = 1;
-
         gtk4.extraConfig.gtk-application-prefer-dark-theme = 1;
     };
 }
